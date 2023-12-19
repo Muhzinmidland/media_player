@@ -44,7 +44,7 @@ function Add({setUploadVideoStatus}) {
   return (
     <div>
       <div className='d-flex align-items-center'>
-        <button style={{fontFamily:'-moz-initial'}} className='btn btn-primary'>Upload New Video button<i class="fa-solid fa-cloud-arrow-up ms-2" onClick={handleShow}></i></button>
+        <button style={{fontFamily:'-moz-initial'}} className='btn btn-primary'>Upload New Video <i class="fa-solid fa-cloud-arrow-up ms-2" onClick={handleShow}></i></button>
       </div>
 
       <Modal
